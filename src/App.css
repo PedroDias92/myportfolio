@@ -23,9 +23,10 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px; 
-  
-  
 }
+
+
+
 
 .banner-text{
   background-color:rgb(43, 42, 42);
@@ -40,6 +41,7 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
   margin: auto;
   font-weight: bold;
   font-size: 66px;
+  text-align: center;
   
 }
 
@@ -69,4 +71,44 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
   color:white;
   font-size: 5em;
   padding: 8px;
+}
+
+
+@media screen and (max-width: 601px) {
+  .avatar-img{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; 
+  }
+  .banner-text h1 {
+    color:white;
+    margin: auto;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    
+  }
+
+  .banner-text p {
+    color:white;
+    margin-top: 5px;
+    font-size: 10px;
+    text-align:center;
+    padding-top: 5px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin:auto
+  }
+  .socialLinks i{
+    color:white;
+    font-size: 2em;
+    padding: 4px;
+  }
+  
 }
