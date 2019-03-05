@@ -19,15 +19,15 @@ class Landingpage extends Component{
                         <p>HTML | JavaScript | React | VueJS | NodeJS | MongoDB | Python3.x | SQL</p>
                         <div className="socialLinks">
                             {/* linkedIn */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/pedro-dias92/" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-linkedin"></i>
                             </a>
                             {/* github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/PedroDias92" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-github-square"></i>
                             </a>
                             {/* instagram */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.instagram.com/pedrodiaszargas/" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-instagram"></i>
                             </a>
                         </div>
