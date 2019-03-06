@@ -4,16 +4,16 @@ import Landingpage from './landingpage';
 import Aboutme from './aboutme';
 import Projects from './projects';
 import Resume from './resume';
-import Contact from './contact'
+import ContactsResume from './contactResume'
 
 
 const Main = () =>(
     <Switch>
-        <Route exact path ="/" component={Landingpage} />
-        <Route path ="/aboutme" component={Aboutme} />
+        <Route exact path ="/aboutme" component={Aboutme} />
+        {/* <Route path ="/aboutme" component={Aboutme} /> */}
         <Route path ="/projects" component={Projects} />
         <Route path ="/resume" component={Resume} />
-        <Route path ="/contact" component={Contact} />
+        <Route path ="/contactResume" component={ContactsResume} />
 
     </Switch>
 )

@@ -15,7 +15,7 @@ class Projects extends Component{
                 <div className="section group">
                     <div className="col span_1_of_3">
                         <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project #1</CardTitle>
+                            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif) center / cover'}}>Image Search</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...

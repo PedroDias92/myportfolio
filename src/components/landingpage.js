@@ -27,9 +27,9 @@ class Landingpage extends Component{
                                 <i className="fab fa-github-square"></i>
                             </a>
                             {/* instagram */}
-                            <a href="https://www.instagram.com/pedrodiaszargas/" rel="noopener noreferrer" target="_blank">
+                            {/* <a href="https://www.instagram.com/pedrodiaszargas/" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-instagram"></i>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </Cell>
