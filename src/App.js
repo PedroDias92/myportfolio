@@ -7,6 +7,10 @@ import { Link } from 'react-router-dom'
 
 
 class App extends Component {
+  hideToggle() {
+    var selectorId = document.querySelector('.mdl-layout');
+    selectorId.MaterialLayout.toggleDrawer();
+  }
   render() {
     return (
       <div className="App">
@@ -21,9 +25,9 @@ class App extends Component {
               </Header>
               <Drawer title="Portfolio">
                   <Navigation>
-                      <Link to="/aboutme">About Me</Link>
-                      <Link to="/projects">Projects</Link>
-                      <Link to="/contactResume">Contact/Resume</Link>
+                      <Link to="/aboutme" onClick={()=>this.hideToggle()}>About Me</Link>
+                      <Link to="/projects" onClick={()=>this.hideToggle()}>Projects</Link>
+                      <Link to="/contactResume" onClick={()=>this.hideToggle()}>Contact/Resume</Link>
                   </Navigation>
               </Drawer>
               <Content>

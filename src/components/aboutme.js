@@ -6,9 +6,9 @@ class Aboutme extends Component{
     render(){
         return(
         
-        <div style={{width: '100%',height:'100%', margin:'auto'}}>
-            <Grid className="landingpageGrid">
-                <Cell col={4}>
+        <div className="landingpageGrid">
+            <Grid >
+                <Cell col={4} >
                     <img 
                     alt="avatar img"
                     className="avatar-img"
