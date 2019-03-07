@@ -63,7 +63,7 @@ class Projects extends Component{
         }else if(this.state.activeTab === 2){
             return(
                 <div>
-                    <h1>This is MongoDB</h1>
+                    <h1>This is Others</h1>
                 </div>
             )
         }
@@ -76,7 +76,7 @@ class Projects extends Component{
             <Tabs active={this.state.activeTab} onChange={(tabId)=>this.setState({activeTab: tabId})} ripple>
                 <Tab>React</Tab>
                 <Tab>VueJS</Tab>
-                <Tab>MongoDB</Tab>
+                <Tab>Others</Tab>
             </Tabs>
             
             <Grid>

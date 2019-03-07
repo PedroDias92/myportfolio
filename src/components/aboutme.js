@@ -35,7 +35,7 @@ class Aboutme extends Component{
                     </div>
                 </Cell>
                 <Cell col={8} className="aboutMe">
-                        <h1>About Me</h1>
+                        <h1>Me talking about myself</h1>
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 

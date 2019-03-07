@@ -190,6 +190,15 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.contact-grid i {
+  margin-right: 5px;
+}
+
+.contact-grid  {
+  font-family: 'Josefin Sans', sans-serif;
+  margin:5px;
+}
+
 .listItem {
   font-size: 25px;
 }
@@ -202,4 +211,5 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
 .contact-list a{
   color: blue;
 }
+
 
