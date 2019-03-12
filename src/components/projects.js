@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardActions,CardText,Button} from 'react-mdl';
+import Project from './project'
 
 class Projects extends Component{
     constructor(props){
@@ -12,46 +13,50 @@ class Projects extends Component{
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                <div className="section group">
-                    <div className="col span_1_of_3">
-                        <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif) center / cover'}}>Image Search</CardTitle>
-                            <CardText>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Mauris sagittis pellentesque lacus eleifend lacinia...
-                            </CardText>
-                            <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button href="https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif" target="_blank" colored>giphy</Button>
-                            </CardActions>
-                        </Card>
-                    </div>
-                    <div className="col span_1_of_3">
-                        <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project #2</CardTitle>
-                            <CardText>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Mauris sagittis pellentesque lacus eleifend lacinia...
-                            </CardText>
-                            <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button href="https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif" target="_blank" colored>giphy</Button>
-                            </CardActions>
-                        </Card>
-                    </div>
-                    <div className="col span_1_of_3">
-                        <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project #3</CardTitle>
-                            <CardText>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Mauris sagittis pellentesque lacus eleifend lacinia...
-                            </CardText>
-                            <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button href="https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif" target="_blank" colored>giphy</Button>
-                            </CardActions>
-                        </Card>
-                    </div>
+                <div className="row">
+                    <Project 
+                        url = "https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif"
+                        cardTitle="Image Search"
+                        cardText = "ola tudo bem .Mauris sagittis pellentesque lacus eleifend lacinia..."
+                        github="https://github.com/PedroDias92/image_search_app"
+                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                    />
+                    <Project 
+                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
+                        cardTitle="Project 1"
+                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.acinia..."
+                        github="https://github.com/PedroDias92/image_search_app"
+                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                    />
+                    <Project 
+                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
+                        cardTitle="Project 2"
+                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis ppellentesque lacus eleifend lacinia.Mauris sagittis pellentesque lacellentesque lacus eleifend lacinia.Mauris sagittis pellentesque lacus eleifend lacinia..."
+                        github="https://github.com/PedroDias92/image_search_app"
+                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                    />
+                    <Project 
+                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
+                        cardTitle="Project 3"
+                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
+                        github="https://github.com/PedroDias92/image_search_app"
+                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                    />
+                    <Project 
+                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
+                        cardTitle="Project 4"
+                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
+                        github="https://github.com/PedroDias92/image_search_app"
+                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                    />
+                    <Project 
+                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
+                        cardTitle="Project 5"
+                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
+                        github="https://github.com/PedroDias92/image_search_app"
+                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                    />
+                    
                 </div>
             )
         }else if(this.state.activeTab === 1){
