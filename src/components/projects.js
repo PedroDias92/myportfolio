@@ -15,25 +15,25 @@ class Projects extends Component{
             return(
                 <div className="row">
                     <Project 
+                        url = "https://media.giphy.com/media/1SEPuIsJt0ZoNCKAzk/giphy.gif"
+                        cardTitle=""
+                        cardText = "ScoreBoard is part of Treehouse 'Learn React' , learn about JSX,Props, State, Components, Events, Lifting state up, Refs, Validate Props with PropTypes."
+                        github="https://github.com/PedroDias92/score_board"
+                        demo="https://scoreboard-7uwl7bh9t.now.sh"
+                    />
+                    <Project 
                         url = "https://media.giphy.com/media/Sb7lRw4SiKDS3zXPfl/giphy.gif"
-                        cardTitle="Image Search"
-                        cardText = "ola tudo bem .Mauris sagittis pellentesque lacus eleifend lacinia..."
+                        cardTitle="Image Search app"
+                        cardText = "Image Search app built with React that fetch data from https://unsplash.com/ API"
                         github="https://github.com/PedroDias92/image_search_app"
                         demo="https://react-image-search-nnl5ipfyh.now.sh"
                     />
                     <Project 
-                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        cardTitle="Project 1"
-                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.acinia..."
-                        github="https://github.com/PedroDias92/image_search_app"
-                        demo="https://react-image-search-nnl5ipfyh.now.sh"
-                    />
-                    <Project 
-                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        cardTitle="Project 2"
-                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis ppellentesque lacus eleifend lacinia.Mauris sagittis pellentesque lacellentesque lacus eleifend lacinia.Mauris sagittis pellentesque lacus eleifend lacinia..."
-                        github="https://github.com/PedroDias92/image_search_app"
-                        demo="https://react-image-search-nnl5ipfyh.now.sh"
+                        url = "https://media.giphy.com/media/BLqkNkDcyjk4j7Vqay/giphy.gif"
+                        cardTitle=""
+                        cardText = "Basic todo app made with React and Vue (in 'others' tab), help me understand the difference between the two framework's."
+                        github="https://github.com/PedroDias92/todo-app-react"
+                        demo="https://todoappreact-psgfuqdy2.now.sh/"
                     />
                     <Project 
                         url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
@@ -62,13 +62,13 @@ class Projects extends Component{
         }else if(this.state.activeTab === 1){
             return(
                 <div>
-                    <h1>This is Vue</h1>
-                </div>
-            )
-        }else if(this.state.activeTab === 2){
-            return(
-                <div>
-                    <h1>This is Others</h1>
+                    <Project 
+                        url = "https://media.giphy.com/media/2gWGcBMlywPPm1ZFmn/giphy.gif"
+                        cardTitle="Meower"
+                        cardText = "Meower - Twitter for Cats, a basic twitter clone built to demonstrate the full stack 🥞 client(HTML|CSS|javascript), server(NodeJs), database(MongoDB)."
+                        github="https://github.com/PedroDias92/Meower_twiter-clone"
+                        demo=""
+                    />
                 </div>
             )
         }
@@ -80,7 +80,6 @@ class Projects extends Component{
         <div className="category-tabs">
             <Tabs active={this.state.activeTab} onChange={(tabId)=>this.setState({activeTab: tabId})} ripple>
                 <Tab>React</Tab>
-                <Tab>VueJS</Tab>
                 <Tab>Others</Tab>
             </Tabs>
             
