@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardActions,CardText,Button} from 'react-mdl';
+import {Tabs,Tab,Grid,Cell} from 'react-mdl';
 import Project from './project'
 
 class Projects extends Component{
@@ -35,27 +35,8 @@ class Projects extends Component{
                         github="https://github.com/PedroDias92/todo-app-react"
                         demo="https://todoappreact-psgfuqdy2.now.sh/"
                     />
-                    <Project 
-                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        cardTitle="Project 3"
-                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
-                        github="https://github.com/PedroDias92/image_search_app"
-                        demo="https://react-image-search-nnl5ipfyh.now.sh"
-                    />
-                    <Project 
-                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        cardTitle="Project 4"
-                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
-                        github="https://github.com/PedroDias92/image_search_app"
-                        demo="https://react-image-search-nnl5ipfyh.now.sh"
-                    />
-                    <Project 
-                        url = "http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        cardTitle="Project 5"
-                        cardText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
-                        github="https://github.com/PedroDias92/image_search_app"
-                        demo="https://react-image-search-nnl5ipfyh.now.sh"
-                    />
+                    <hr/>
+                    <h3 style={{textAlign:'center',marginTop:'auto'}}>More to come!</h3>
                     
                 </div>
             )
@@ -69,6 +50,9 @@ class Projects extends Component{
                         github="https://github.com/PedroDias92/Meower_twiter-clone"
                         demo=""
                     />
+
+                    <hr/>
+                    <h3 style={{textAlign:'center',marginTop:'auto'}}>More to come!</h3>
                 </div>
             )
         }

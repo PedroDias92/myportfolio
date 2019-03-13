@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <div className="demo-big-content">
           <Layout>
-              <Header className="header-color" title="Portfolio" scroll>
+              <Header className="header-color" title="Pedro Dias" scroll>
                   <Navigation>
                       <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>

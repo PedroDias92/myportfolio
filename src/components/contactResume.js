@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid,Cell,List,ListItem,ListItemContent,Button,} from 'react-mdl';
 import Pdf from '../documents/CV_PedroDias_2019.pdf';
+import avatarImg from '../images/me2.png'
 
 class Contact extends Component{   
     render(){
@@ -10,7 +11,7 @@ class Contact extends Component{
                 <Cell col={8}>
                     <h3>Resume</h3>
                     <h2>Pedro Dias</h2>
-                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
+                    <img src= {avatarImg}//"https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
                         alt="avatar"
                         style={{height:'100px'}} />
 
@@ -99,7 +100,7 @@ class Contact extends Component{
                         <ListItem>
                             <ListItemContent style={{fontSize:'15px',fontFamily:'Josefin Sans'}}>
                             <i className="fab fa-linkedin"></i>
-                            <a target="_blank" href="https://www.linkedin.com/in/pedro-dias92/" rel="noopener noreferrer">www.linkedin.com/in/pedro-dias92/</a></ListItemContent>
+                            <a target="_blank" href="https://www.linkedin.com/in/pedro-dias92/" rel="noopener noreferrer">linkedin.com/in/pedro-dias92/</a></ListItemContent>
                         </ListItem>
                     </List>
                 </div>

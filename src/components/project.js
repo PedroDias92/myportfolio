@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardActions,CardText,Button} from 'react-mdl';
+import React from 'react';
+import {Card,CardTitle,CardActions,CardText,Button} from 'react-mdl';
 
 const Project =(props) => {
     console.log(props);
