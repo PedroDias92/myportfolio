@@ -43,7 +43,7 @@ class Aboutme extends Component{
                         <span className="question">Why not just front-end developer? </span>
                         <p>Because i like to know how stuff are build behind the scenes and know how to built them.</p>
                         <span className="question">Why not just back-end developer?</span>
-                        <p>Because i like visual stuff to and i want develop beautiful and interactive interfaces for people. Check <a href="https://www.youtube.com/watch?v=5lJpVnpKCwA">this</a></p>
+                        <p>Because i like visual stuff to and i want develop beautiful and interactive interfaces for people. Check <a target="_blank" href="https://www.youtube.com/watch?v=5lJpVnpKCwA">this</a></p>
                         <span className="question">What I know and learn so far ?</span>
                         <p>From my previous job as a software integration engineer i learn to extract, transform and load (ETL) data from data warehouse’s using python, powershell, xslt/xsd , mongoDB and SQL. 
                         To my journey a have learned about HTML/CSS, javascript, React(a little bit of VueJs) and i'm starting moving to NodeJs and Express .</p>
