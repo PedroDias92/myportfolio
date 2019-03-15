@@ -38,16 +38,16 @@ class Aboutme extends Component{
                 </Cell>
                 <Cell col={8} className="aboutMe">
                         <h1>Me talking about myself</h1>
-                        <span className="question">Why is the ‘About Me’ page is the 'Home' page ?</span>
+                        <span className="question">Why is the ‘About Me’ page the 'Home' page ?</span>
                         <p>Why not? My name is Pedro and I’m in a journey to become a Full Stack Web Developer. </p>
                         <span className="question">Why not just front-end developer? </span>
-                        <p>Because i like to know how stuff are build behind the scenes and know how to built them.</p>
+                        <p>Because I like to know how stuff are built behind the scenes and know how to built them as well.</p>
                         <span className="question">Why not just back-end developer?</span>
-                        <p>Because i like visual stuff to and i want develop beautiful and interactive interfaces for people. Check <a target="_blank" href="https://www.youtube.com/watch?v=5lJpVnpKCwA">this</a></p>
-                        <span className="question">What I know and learn so far ?</span>
-                        <p>From my previous job as a software integration engineer i learn to extract, transform and load (ETL) data from data warehouse’s using python, powershell, xslt/xsd , mongoDB and SQL. 
-                        To my journey a have learned about HTML/CSS, javascript, React(a little bit of VueJs) and i'm starting moving to NodeJs and Express .</p>
-                        <span className="question">Besides coding what do you do ?</span>
+                        <p>Because I like visual stuff too and I want to develop beautiful, interactive and intuitive interfaces. Check <a target="_blank" href="https://www.youtube.com/watch?v=5lJpVnpKCwA">this</a></p>
+                        <span className="question">What I did I learn so far ?</span>
+                        <p>From my previous job as a software integration engineer, I learned how to extract, transform and load (ETL) data from data's warehouses using python, powershell, xslt/xsd , mongoDB and SQL. 
+                        In my journey, I have also developed skills in HTML/CSS, Javascript, React (a little bit of VueJs) and I'm also starting to interact with NodeJs and Express .</p>
+                        <span className="question">Besides coding, what do I like ?</span>
                         <p>Basketball, a lot of that 🏀</p>
                          
                 </Cell>
