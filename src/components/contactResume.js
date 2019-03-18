@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent, Button } from "react-mdl";
 import Pdf from "../documents/CV_PedroDias_2019.pdf";
+import Pdf_EN from "../documents/CV_PedroDias_2019_EN.pdf";
 import avatarImg from "../images/me2.png";
 
 class Contact extends Component {
@@ -20,19 +21,27 @@ class Contact extends Component {
             <List>
               <ListItem fourLine>
                 <ListItemContent>
-                  <b>MERN (MongoDb,Express,React,Node.js)</b>
+                  <b>React Front to Back and MERN Stack Front to Back</b>
                   <p>
-                    Learning from youtube channels (like:{" "}
+                    Learning from udemy courses{" "}
                     <a
                       style={{ color: "blue" }}
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw"
+                      href="https://www.udemy.com/react-front-to-back/"
                     >
-                      Coding Garden with CJ
+                      React Front to Back
                     </a>
-                    ) making apps with this stack. Skills's:
-                    MongoDb,Express,React,Node.js
+                    ) and{" "}
+                    <a
+                      style={{ color: "blue" }}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.udemy.com/mern-stack-front-to-back/"
+                    >
+                      MERN Stack Front To Back
+                    </a>
+                    ) Skills's: MongoDb,Express,React,Node.js
                   </p>
                 </ListItemContent>
               </ListItem>
@@ -61,7 +70,7 @@ class Contact extends Component {
                       target="_blank"
                     >
                       www.udacity.com
-                    </a>
+                    </a>{" "}
                     and{" "}
                     <a
                       style={{ color: "blue" }}
@@ -104,9 +113,8 @@ class Contact extends Component {
             </Button>
             <Button
               style={{ margin: "5px" }}
-              disabled
-              /* href = {Pdf} 
-                        target = "_blank"  */
+              href={Pdf_EN}
+              target="_blank"
               raised
               colored
               rel="noopener noreferrer"
