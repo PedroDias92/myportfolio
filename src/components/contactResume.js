@@ -31,17 +31,17 @@ class Contact extends Component {
                       href="https://www.udemy.com/react-front-to-back/"
                     >
                       React Front to Back
-                    </a>
-                    ) and{" "}
+                    </a>{" "}
+                    and{" "}
                     <a
                       style={{ color: "blue" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://www.udemy.com/mern-stack-front-to-back/"
                     >
-                      MERN Stack Front To Back
-                    </a>
-                    ) Skills's: MongoDb,Express,React,Node.js
+                      MERN Stack Front To Back.
+                    </a>{" "}
+                    Skills's: MongoDb,Express,React,Node.js
                   </p>
                 </ListItemContent>
               </ListItem>
