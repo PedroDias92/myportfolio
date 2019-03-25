@@ -21,27 +21,19 @@ class Contact extends Component {
             <List>
               <ListItem fourLine>
                 <ListItemContent>
-                  <b>React Front to Back and MERN Stack Front to Back</b>
+                  <b>React Front to Back</b>
                   <p>
-                    Learning from udemy courses{" "}
+                    Learning from udemy course by Brad Traversy{" "}
                     <a
                       style={{ color: "blue" }}
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://www.udemy.com/react-front-to-back/"
                     >
-                      React Front to Back
+                      React Front to Back.
                     </a>{" "}
-                    and{" "}
-                    <a
-                      style={{ color: "blue" }}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.udemy.com/mern-stack-front-to-back/"
-                    >
-                      MERN Stack Front To Back.
-                    </a>{" "}
-                    Skills's: MongoDb,Express,React,Node.js
+                    {" "}
+                    Skills's: React,Redux,Firebase
                   </p>
                 </ListItemContent>
               </ListItem>
