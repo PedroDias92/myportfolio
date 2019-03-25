@@ -19,7 +19,7 @@ class Contact extends Component {
             />
 
             <List>
-              <ListItem fourLine>
+              <ListItem threeLine>
                 <ListItemContent>
                   <b>React Front to Back</b>
                   <p>
@@ -115,11 +115,11 @@ class Contact extends Component {
             </Button>
           </Cell>
 
-          <Cell col={4}>
+          <Cell col={4}  >
             <h3>Contacts</h3>
             <div className="contact-list">
               <List>
-                <ListItem>
+                <ListItem twoLine>
                   <ListItemContent
                     style={{ fontSize: "15px", fontFamily: "Josefin Sans" }}
                   >
@@ -127,7 +127,7 @@ class Contact extends Component {
                     <a href="tel:(+351) 932 591 098">(+351) 932 591 098</a>
                   </ListItemContent>
                 </ListItem>
-                <ListItem>
+                <ListItem twoLine>
                   <ListItemContent
                     style={{ fontSize: "15px", fontFamily: "Josefin Sans" }}
                   >
@@ -137,7 +137,7 @@ class Contact extends Component {
                     </a>
                   </ListItemContent>
                 </ListItem>
-                <ListItem>
+                <ListItem twoLine>
                   <ListItemContent
                     style={{ fontSize: "15px", fontFamily: "Josefin Sans" }}
                   >
