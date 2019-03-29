@@ -14,7 +14,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="container">
-          <div className="row">
+          
             <Project
               url="https://media.giphy.com/media/3j9HALUOl08noDfFGb/giphy.gif"
               cardTitle=""
@@ -43,12 +43,13 @@ class Projects extends Component {
               github="https://github.com/PedroDias92/todo-app-react"
               demo="https://todoappreact-psgfuqdy2.now.sh/"
             />
-          </div>
+            
+          
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
+        <div className="container">
           <Project
             url="https://media.giphy.com/media/2gWGcBMlywPPm1ZFmn/giphy.gif"
             cardTitle="Meower"
@@ -56,11 +57,6 @@ class Projects extends Component {
             github="https://github.com/PedroDias92/Meower_twiter-clone"
             demo=""
           />
-
-          <hr />
-          <h3 style={{ textAlign: "center", marginTop: "auto" }}>
-            More to come!
-          </h3>
         </div>
       );
     }

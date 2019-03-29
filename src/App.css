@@ -214,3 +214,10 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
     margin-bottom: 20px;
   }
 }
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left
+}
