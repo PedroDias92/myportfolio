@@ -1,0 +1,201 @@
+:root {
+    --clr-blue: #4285F4;
+    --clr-red: #EA4335;
+}
+
+.section {
+    padding: 50px;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin: -1px 0;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+/* Marker Style */
+.social-icon.marker-style {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    line-height: 50px;
+    /* background: yellow; */
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: .5s ease;
+}
+
+.social-icon.marker-style i {
+    color: #6c6c6c;
+    background: #ECECEC;
+    display: inline-block;
+    margin-top: -10px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all .5s ease;
+}
+
+.card:hover .social-icon.marker-style {
+    transform: translateY(15px);
+}
+
+.social-icon.marker-style::before,
+.social-icon.marker-style::after {
+    position: absolute;
+    left: 0;
+    content: "";
+}
+
+.social-icon.marker-style::before {
+    top: -50%;
+    height: 120px;
+    width: 120px;
+    background: var(--clr-blue);
+    -webkit-clip-path: circle(50% at 50% 80%);
+    clip-path: circle(50% at 50% 80%);
+    z-index: -1;
+}
+
+.social-icon.marker-style::after {
+    height: 90px;
+    width: 110px;
+    top: 50%;
+    margin-left: 5px;
+    background: var(--clr-blue);
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    z-index: -1;
+}
+
+.card:hover .social-icon.marker-style.pin::after {
+    background: var(--clr-red);
+}
+
+.card:hover .social-icon.marker-style i {
+    background: var(--clr-blue);
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.card:hover .social-icon.marker-style.icon-bg i {
+    background: var(--clr-red);
+}
+
+.card label {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #6c6c6c;
+    transition: .5s;
+}
+
+.card:hover label {
+    color: #3c3c3c;
+}
+
+/* Perspective */
+.social-icon.perspactive-style {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.social-icon.perspactive-style::after {
+    position: absolute;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background: var(--clr-blue);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.social-icon.perspactive-style i {
+    position: relative;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    transition: .5s;
+}
+
+.card:hover .social-icon.perspactive-style:after {
+    transform: translateY(25px) perspective(600px) rotateX(75deg);
+}
+
+.card:hover .social-icon.perspactive-style.round:after {
+    border-radius: 50%;
+}
+
+.card:hover .social-icon.perspactive-style.between:after {
+    transform: translateY(50px) perspective(600px) rotateX(85deg);
+}
+
+.card:hover .social-icon.perspactive-style i {
+    color: #E84335;
+}
+
+/* Hexagon Style */
+.social-icon.hexagon-style {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+}
+
+.social-icon.hexagon-style i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #fff;
+}
+
+.social-icon.hexagon-style::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: var(--clr-blue);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: .5s;
+}
+
+.card:hover .social-icon.hexagon-style.square-sm::after {
+    -webkit-clip-path: polygon(50% 0, 50% 0, 100% 50%, 50% 100%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 50% 0, 100% 50%, 50% 100%, 50% 100%, 0 50%);
+}
+
+.card:hover .social-icon.hexagon-style.square-lg::after {
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+}
+
+.card:hover .social-icon.hexagon-style.pentagon::after {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 85% 100%, 50% 100%, 15% 100%, 0 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 85% 100%, 50% 100%, 15% 100%, 0 25%);
+}

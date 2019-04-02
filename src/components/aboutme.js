@@ -62,6 +62,7 @@ class Aboutme extends Component {
               interactive and intuitive interfaces. Check{" "}
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=5lJpVnpKCwA"
               >
                 this

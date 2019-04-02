@@ -1,44 +1,52 @@
-.header-color{
-  background: #36D1DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.header-color {
+  background: #36D1DC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #5B86E5, #36D1DC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.landingpageGrid{
-  background: #36D1DC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+.landingpageGrid {
+  background: #36D1DC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 150%;
   /* border: 5px solid red; */
-  
+
 }
 
-.aboutMe{
-  padding-top:50px; 
+
+
+.aboutMe {
+  padding-top: 50px;
   margin: auto;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
-  
+
   /* border: 5px solid red; */
 }
 
-.aboutMe span{
+.aboutMe span {
   /* border: 5px solid red; */
   font-weight: bold;
   text-decoration: underline;
   font-size: 15px;
-  
+
 }
 
-.avatar-img{
+.avatar-img {
   height: 200px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px; 
-  padding-top:50px; 
+  margin-bottom: 15px;
+  padding-top: 50px;
   margin: auto;
   /* border: 5px solid red; */
 }
@@ -46,8 +54,8 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
 
 
 
-.banner-text{
-  background-color:rgb(43, 42, 42);
+.banner-text {
+  background-color: rgb(43, 42, 42);
   opacity: .9;
   width: 75%;
   margin: auto;
@@ -55,27 +63,27 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
 }
 
 .banner-text h1 {
-  color:white;
+  color: white;
   margin: auto;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  
+
 }
 
 
-.banner-text hr{
-  border-top:5px dashed whitesmoke;
-  margin:auto; 
+.banner-text hr {
+  border-top: 5px dashed whitesmoke;
+  margin: auto;
   width: 60%;
 
 }
 
 .banner-text p {
-  color:white;
+  color: white;
   margin-top: 5px;
   font-size: 15px;
-  text-align:center;
+  text-align: center;
   padding-top: 5px;
 }
 
@@ -83,114 +91,146 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin:auto
+  margin: auto
 }
-.socialLinks i{
-  color:white;
+
+.socialLinks i {
+  color: white;
   font-size: 5em;
   padding: 8px;
 }
 
 
 @media screen and (max-width: 601px) {
-  .landingpageGrid{
-    background: #36D1DC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  .landingpageGrid {
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height: 210%;
     /* border: 5px solid red; */
-    
+
   }
-  
-  .avatar-img{
+
+  .avatar-img {
     height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
   }
+
   .banner-text h1 {
-    color:white;
+    color: white;
     margin: auto;
     font-weight: bold;
     font-size: 33px;
     text-align: center;
-    
+
   }
 
   .banner-text p {
-    color:white;
+    color: white;
     margin-top: 5px;
     font-size: 15px;
-    text-align:center;
+    text-align: center;
     padding-top: 5px;
   }
-  
+
   .socialLinks {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin:auto
+    margin: auto
   }
-  .socialLinks i{
-    color:white;
+
+  .socialLinks i {
+    color: white;
     font-size: 2em;
     padding: 4px;
   }
-  
+
 }
 
 
+/* RESUME */
 
-.contact-body{
-  margin:auto;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-.contact-grid{
+.resume {
   text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 95%;
-  background: white;
+  /* border: 5px solid blue; */
+  margin-left: 40px;
 }
 
-.contact-grid h2{
-  font-family: 'Indie Flower', cursive; 
+.resume ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
 }
 
-.contact-grid p {
-  font-family: 'Josefin Sans', sans-serif;
+.resume>ul>li {
+
+  list-style: none;
+  margin-bottom: 2px;
+  text-align: center;
+
 }
 
-.contact-grid i {
-  margin-right: 5px;
+
+
+.gray {
+  color: gray;
+  padding-top: 1px;
 }
 
-.contact-grid  {
-  font-family: 'Josefin Sans', sans-serif;
-  margin:5px;
+/* .resume li {
+  border: 5px solid yellow;
+} */
+
+
+/* CONTACTS */
+.contacts {
+  text-align: center;
+  /* border: 5px solid red; */
 }
 
-.listItem {
-  font-size: 25px;
+.contacts h2 {
+  margin-bottom: 30px;
 }
 
-.contact-list i{
-  font-size: 30px;
-  padding-right: 10px;
+.contacts ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  width: 90%;
 }
 
-.contact-list a{
-  color: blue;
+.contacts>ul>li {
+
+  list-style: none;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
-  /* PROJECTS */
+/* .contacts li {
+  border: 5px solid yellow;
+} */
+
+
+
+
+/* PROJECTS */
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -216,8 +256,8 @@ background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Fi
 }
 
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left
 }
