@@ -13,7 +13,7 @@ class Contact extends Component {
   };
   render() {
     return (
-      <Grid style={{ width: "100%", margin: "auto" }}>
+      <Grid style={{ width: "90%", margin: "auto" }}>
         <Cell col={8} phone={12} tablet={12} className="resume">
           <h2>Resume</h2>
           <h3>Pedro Dias</h3>
